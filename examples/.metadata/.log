@@ -1,0 +1,18 @@
+!SESSION 2021-05-18 00:24:26.377 -----------------------------------------------
+eclipse.buildId=Version 1.5.1
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Thomas\SynologyDrive\Enseignement\2020-2021\Embedded_OS\Universal-HID-Translator-corr\usbh_hid_generic\examples
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-05-18 00:24:41.255
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-05-18 00:24:41.342
+!MESSAGE Log4j initialized with config file C:\Users\Thomas\SynologyDrive\Enseignement\2020-2021\Embedded_OS\Universal-HID-Translator-corr\usbh_hid_generic\examples\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-05-18 00:24:48.903
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-05-18 00:24:49.844
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
