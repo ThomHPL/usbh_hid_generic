@@ -16,7 +16,7 @@ There are mainly two issues with this library:
 In order to use the library, a project should be created and configured, through cubeMX, to use the USB Full Speed peripheral in HID host mode and optionnaly to use FreeRTOS. The settings to check are:
 * System core - SYS - Mode - Timebase Source = TIM6
 * Connectivity - USB_OTG_FS - Mode - Mode = Host_Only
-* Middleware - USB_HOST - Mode - Class for FS IP = Mass Storage Host Class (in order to include all usb core files in the project)
+* Middleware - USB_HOST - Mode - Class for FS IP = Mass Storage Host Class (in order to include all usb core files in the project, the initialization will be bypassed so it won't be initialized as a USB MSC host)
 * Middleware - USB_HOST - Configuration - Platform Settings = choose a GPIO output here to enable/disable VBUS power (can be used on other nucleo board with integrated USB host hardware)
 
 Then you can copy the content of the repository `src` folder into the root folder of your project. You can then use the `usb_hid_generic.c` library to interface with a custom driver for the HID device you want to interact with (see `examples/Dualshock_3` to know how to do that).
