@@ -129,14 +129,14 @@ USBH_ClassTypeDef  HID_Class =
 */
 
 
+static HID_HandleTypeDef class_pData[sizeof(HID_HandleTypeDef)];
+
 /**
   * @brief  USBH_HID_InterfaceInit
   *         The function init the HID class.
   * @param  phost: Host handle
   * @retval USBH Status
   */
-HID_HandleTypeDef class_pData[sizeof(HID_HandleTypeDef)];
-
 static USBH_StatusTypeDef USBH_HID_InterfaceInit(USBH_HandleTypeDef *phost)
 {
   USBH_StatusTypeDef status;
