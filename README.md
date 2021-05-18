@@ -26,3 +26,4 @@ Then you can copy the content of the repository `src` folder into the root folde
 The example project in `examples/Dualshock_3` was tested functionnal. It should compile directly for a NUCELO-F446RE board. The following picture shows how to connect the usb cable (using a small micro usb breakout board and an OTG adapter). The USB device power supply is provided by a +5V pin on the CN7 connector. When a DS3 gamepad is connected, the nucleo board will write the gamepad buttons state to the STLink serial port, as well as the 3 axes accelerometer values and the gyroscope value.
 
 ![Wiring](/ressources/wiring.jpg?raw=true "Wiring")
+<img src="/ressources/wiring.jpg" alt="Wiring" width="480"/>
