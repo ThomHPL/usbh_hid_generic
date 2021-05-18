@@ -23,6 +23,10 @@ The example project in `examples/Dualshock_3` was tested functionnal. It should 
   <img src="/ressources/wiring.jpg" alt="Wiring" width="480"/>
 </p>
 
+<p align="center">
+  <img src="/ressources/example.png" alt="Example output" width="480"/>
+</p>
+
 ## Manually modding usbh_hid from ST (the hard way)
 ### Issues with the usbh_hid library
 There are mainly two issues with this library:
