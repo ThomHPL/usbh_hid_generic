@@ -32,6 +32,14 @@
 #include "stm32f4xx_hal.h"
 
 /* USER CODE BEGIN INCLUDE */
+#include "usbh_core.h"
+
+#if (USBH_USE_OS == 1U)
+void MX_USB_HOST_SuspendThread(void);
+#endif
+void MX_USB_HOST_Process(void);
+void MX_USB_HOST_Get_HID_Report(uint8_t* report);
+//  USBH_HandleTypeDef* MX_USB_HOST_GetUSBHHandle(void);
 
 /* USER CODE END INCLUDE */
 
