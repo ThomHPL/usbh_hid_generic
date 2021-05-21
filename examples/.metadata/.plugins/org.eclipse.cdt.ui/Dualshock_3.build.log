@@ -1,20 +1,10 @@
-13:38:50 **** Incremental Build of configuration Debug for project Dualshock_3 ****
+16:49:11 **** Incremental Build of configuration Debug for project Dualshock_3 ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F446xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_HOST/App -I../USB_HOST/Target -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Dualshock_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Thomas\SynologyDrive\Enseignement\2020-2021\Embedded_OS\Universal-HID-Translator-corr\usbh_hid_generic\examples\Dualshock_3\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dualshock_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Dualshock_3.elf
- 
-arm-none-eabi-objdump -h -S  Dualshock_3.elf  > "Dualshock_3.list"
-arm-none-eabi-objcopy  -O binary  Dualshock_3.elf  "Dualshock_3.bin"
 arm-none-eabi-size   Dualshock_3.elf 
    text	   data	    bss	    dec	    hex	filename
   51084	    196	  25392	  76672	  12b80	Dualshock_3.elf
 Finished building: default.size.stdout
  
-Finished building: Dualshock_3.bin
- 
-Finished building: Dualshock_3.list
- 
 
-13:38:53 Build Finished. 0 errors, 0 warnings. (took 2s.138ms)
+16:49:12 Build Finished. 0 errors, 0 warnings. (took 987ms)
 

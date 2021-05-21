@@ -1592,3 +1592,10 @@ Finished building: Dualshock_3.bin
  
 Finished building: Dualshock_3.list
  
+16:49:11 **** Incremental Build of configuration Debug for project Dualshock_3 ****
+make -j4 all 
+arm-none-eabi-size   Dualshock_3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  51084	    196	  25392	  76672	  12b80	Dualshock_3.elf
+Finished building: default.size.stdout
+ 

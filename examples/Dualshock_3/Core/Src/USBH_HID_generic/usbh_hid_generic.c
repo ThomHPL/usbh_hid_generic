@@ -1,10 +1,11 @@
-/**
- ******************************************************************************
- * @file    usbh_hid_generic.c
- * @author  Thomas Herpoel
- * @brief   This file is the application layer for USB Host HID generic device handling.
- ******************************************************************************
+/* Copyright (C) 2021 Thomas Herpoel - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the GNU GPLv3 license.
+ *
+ * You should have received a copy of the GNU GPLv3 license with
+ * this file. If not, please visit: https://www.gnu.org/licenses/gpl-3.0.fr.html
  */
+
 
 #include "USBH_HID_generic/usbh_hid_generic.h"
 #include "USBH_HID_generic/usbh_hid_parser.h"

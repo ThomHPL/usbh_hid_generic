@@ -1,10 +1,11 @@
-/**
-  ******************************************************************************
-  * @file    usbh_hid_generic.h
-  * @author  Thomas Herpoel
-  * @brief   This file contains all the prototypes for the usbh_hid_generic.c
-  ******************************************************************************
-  */
+/* Copyright (C) 2021 Thomas Herpoel - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the GNU GPLv3 license.
+ *
+ * You should have received a copy of the GNU GPLv3 license with
+ * this file. If not, please visit: https://www.gnu.org/licenses/gpl-3.0.fr.html
+ */
+
 
 #ifndef __USBH_HID_GENERIC_H
 #define __USBH_HID_GENERIC_H
